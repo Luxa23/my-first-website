@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0d9e8;
+  font-family: "Lato";
+}
+
+p {
+  background-color: #cea4cb;
+  padding: 10px;
+  border: 2px solid #a2708c;
+  margin: 10px solid;
+}
