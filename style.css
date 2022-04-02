@@ -8,6 +8,13 @@
   font-family: "Rubik Moonrocks";
 } */
 
+body {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0d9e8;
+  font-family: "Lato";
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -28,14 +35,39 @@ h1 {
   padding: 5px;
 }
 
-body {
-  margin: 20px;
-  padding: 20px;
-  background-color: #f0d9e8;
-  font-family: "Lato";
+.about-myself {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: #af92a2;
+  _box-shadow: 10px 5px 5px black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2px 2px 2px 2px;
 }
 
-section {
+.image {
+  object-fit: contain;
+  padding: 10px;
+}
+
+.skills-and-interests {
+  padding: 10px;
+}
+
+.contact {
+  background-color: #827081;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  margin: 20px;
+}
+
+/* section {
   background-color: #e7a9d1;
   padding: 10px;
   border: 2px solid #a2708c;
@@ -50,14 +82,10 @@ section {
   margin: 15px;
 }
 
-.contact {
-  background-color: green;
-}
-
 .social-cards {
   background-color: aqua;
 }
 
 p {
   background-color: #cea4cb;
-}
+} */
