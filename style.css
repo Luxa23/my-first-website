@@ -1,5 +1,31 @@
 * {
   box-sizing: border-box;
+  /* outline: 2px solid red; */
+  _background-color: aqua;
+}
+
+/* .main-title {
+  font-family: "Rubik Moonrocks";
+} */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "Rubik Moonrocks";
+  font-size: 45px;
+  _font-family: Lato;
+}
+
+.main-navigation {
+  text-decoration: none;
+  color: #4e434d;
+  padding: 5px;
 }
 
 body {
@@ -9,9 +35,29 @@ body {
   font-family: "Lato";
 }
 
-p {
-  background-color: #cea4cb;
+section {
+  background-color: #e7a9d1;
   padding: 10px;
   border: 2px solid #a2708c;
   margin: 10px solid;
+}
+
+.card-styling {
+  background-color: #a2708c;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.contact {
+  background-color: green;
+}
+
+.social-cards {
+  background-color: aqua;
+}
+
+p {
+  background-color: #cea4cb;
 }
