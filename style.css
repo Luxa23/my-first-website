@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* outline: 2px solid red; */
+  _outline: 2px solid red;
   _background-color: aqua;
 }
 
@@ -11,7 +11,6 @@
 body {
   margin: 20px;
   padding: 20px;
-  background-color: #f0d9e8;
   font-family: "Lato";
 }
 
@@ -44,7 +43,7 @@ h1 {
   background-color: #af92a2;
   _box-shadow: 10px 5px 5px black;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .image {
@@ -67,25 +66,44 @@ h1 {
   margin: 20px;
 }
 
-/* section {
-  background-color: #e7a9d1;
-  padding: 10px;
-  border: 2px solid #a2708c;
-  margin: 10px solid;
-}
-
-.card-styling {
-  background-color: #a2708c;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: 15px;
-}
-
 .social-cards {
-  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
 }
 
-p {
-  background-color: #cea4cb;
-} */
+.single-social-card {
+  display: flex;
+  gap: 10px;
+
+  _background-color: aliceblue;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+}
+.social-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffcfd2;
+  border-radius: inherit;
+  box-sizing: border-box;
+}
+
+.content-single-social-card {
+  padding: 5px;
+  width: 100%;
+  box-sizing: content-box;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-social-card {
+  text-decoration: none;
+  color: #7a7a7a;
+}
