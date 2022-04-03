@@ -38,23 +38,39 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
-  background-color: #af92a2;
-  _box-shadow: 10px 5px 5px black;
+  padding: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 15px 15px;
 }
 
 .image {
-  object-fit: contain;
+  _object-fit: contain;
   padding: 10px;
+  width: 300px;
+  height: fit-content;
 }
 
 .skills-and-interests {
-  padding: 10px;
+  _padding: 10px;
 }
 
+.styling-tags {
+  _background-color: #827081;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+}
+
+.styling-single-tags {
+  background-color: #cfbaf0;
+  border-radius: 5px 5px 5px 5px;
+  padding: 3px;
+}
 .contact {
   background-color: #827081;
   display: flex;
@@ -62,7 +78,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
-  gap: 10px;
+  gap: 2px;
   margin: 20px;
 }
 
@@ -78,8 +94,6 @@ h1 {
 .single-social-card {
   display: flex;
   gap: 10px;
-
-  _background-color: aliceblue;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px 15px 15px 15px;
   padding: 10px;
@@ -89,7 +103,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #ffcfd2;
+  background: linear-gradient(#e66465, #9198e5);
   border-radius: inherit;
   box-sizing: border-box;
 }
