@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,95 +11,52 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Lobster&family=Rubik+Moonrocks&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
 
-  
-  </body>
-  </html>
-
   <body>
+    <blockquote class="blockquote blockquote--fancy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus consequatur magni eum deleniti rem eligendi, deserunt provident officia alias sed, totam perspiciatis nisi ipsum! Repellendus deserunt quia corporis nulla. Est.</blockquote>
     <!--main header-->
-    <header>
+    <header class="main-header">
       <h1>Anna Rolfes</h1>
       <nav>
-        <a class= "main-navigation" href="#Contact">Contact</a>
-        <a class= "main-navigation" href="#CV">CV</a>
+        <a class="main-navigation" href="#Contact">Contact</a>
+        <a class="main-navigation" href="#CV">CV</a>
       </nav>
     </header>
 
     <!--main content-->
     <main>
       <div class="about-myself">
-        <img class="image" src="images/foto-anna.jpg" alt="Anna Rolfes" width="150" />
-        <div class="skills-and-interests">
-        <section>
+        <img
+          class="image"
+          src="images/foto-anna.jpg"
+          alt="Anna Rolfes"
+          width="150"
+        />
+        <div>
+        <section class="skills-and-interests">
           <h2>Skills</h2>
-          <p>
-            Skill 1
-          </p>
-          
+          <div>
+            <p class="tag">Project Management</p>
+            <p class="tag">Product Owner</p>
+            <p class="tag">Strategy</p>
+            <p class="tag">Scrum</p>
+            <p class="tag">Web development</p>
+          </div>
         </section>
-        <section>
+
+        <section class="skills-and-interests">
           <h2>Interests</h2>
-          <p>
-            Interest 1
-          </p>
-          
+          <!-- <div class="tags"> -->
+            <p class="tag">Knitting</p>
+            <p class="tag">Crocheting</p>
+            <p class="tag">Reading</p>
+            <p class="tag">Hand lettering</p>
+            <p class="tag">Sleeping</p>
+        </div>
         </section>
       </div>
-    </div>
-
-      <section class="contact" id="Contact">
-        <p>Telefon 0176346 XXX</p>
-        <a href="mailto:anna@gmx.de">anna@gmx.de</a>
-      </section>
-
-        <!--social-cards-->
-      <div class="social-cards">      
-        <article class="single-social-card">
-          <div class="social-image-div">
-          <a href="https://github.com/annarolfes">
-            <img src="images/GitHub-Mark-120px-plus.png" alt="GitHub Logo" width="100" />
-          </a>
-        </div>
-          <div class="content-single-social-card">
-          <h2>Github</h2>
-          <div class="p-social-card">
-<p>Neueste Infos von mir</p>
-<a class="link-social-card" href="https://github.com/annarolfes">@myaccount</a>
-</div>
-</div>              
-        </article>
-        <article class="single-social-card">
-          <div class="social-image-div">
-          <a href="https://github.com/annarolfes">
-            <img src="images/linked-in-icon.png" alt="GitHub Logo" width="100" />
-          </a>
-        </div>
-          <div class="content-single-social-card">
-          <h2>LinkedIn</h2>
-          <div class="p-social-card">
-<p>Neueste Infos von mir</p>
-<a class="link-social-card" href="https://www.linkedin.com/in/anna-rolfes-70a31a43/">@myaccount</a>
-</div>
-</div>              
-        </article>
-        <article class="single-social-card">
-          <div class="social-image-div">
-          <a href="https://github.com/annarolfes">
-            <img src="images/pinterest-icon.png" alt="GitHub Logo" width="100" />
-          </a>
-        </div>
-          <div class="content-single-social-card">
-          <h2>Pinterest</h2>
-          <div class="p-social-card">
-<p>Neueste Infos von mir</p>
-<a class="link-social-card" href="https:www.pinterest.com">@myaccount</a>
-</div>
-</div>              
-        </article>
-        
       </div>
 
       <section>
@@ -111,6 +68,77 @@
           aliquid id doloribus consequatur?
         </p>
       </section>
+      <section class="contact" id="Contact">
+        <a href="tel:0176346324">Telefon 0176346</a>
+        <a href="mailto:anna@gmx.de">anna@gmx.de</a>
+      </section>
+
+      <!--social-cards-->
+      <div class="social-cards">
+        <article class="single-social-card">
+          <div class="social-image-div">
+            <a href="https://github.com/annarolfes">
+              <img
+                src="images/GitHub-Mark-120px-plus.png"
+                alt="GitHub Logo"
+                width="100"
+              />
+            </a>
+          </div>
+          <div class="content-single-social-card">
+            <h2>Github</h2>
+            <div class="p-social-card">
+              <p>Neueste Infos von mir</p>
+              <a class="link-social-card" href="https://github.com/annarolfes"
+                >@myaccount</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="single-social-card">
+          <div class="social-image-div">
+            <a href="https://github.com/annarolfes">
+              <img
+                src="images/linked-in-icon.png"
+                alt="GitHub Logo"
+                width="100"
+              />
+            </a>
+          </div>
+          <div class="content-single-social-card">
+            <h2>LinkedIn</h2>
+            <div class="p-social-card">
+              <p>Neueste Infos von mir</p>
+              <a
+                class="link-social-card"
+                href="https://www.linkedin.com/in/anna-rolfes-70a31a43/"
+                >@myaccount</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="single-social-card">
+          <div class="social-image-div">
+            <a href="https://github.com/annarolfes">
+              <img
+                src="images/pinterest-icon.png"
+                alt="GitHub Logo"
+                width="100"
+              />
+            </a>
+          </div>
+          <div class="content-single-social-card">
+            <h2>Pinterest</h2>
+            <div class="p-social-card">
+              <p>Neueste Infos von mir</p>
+              <a class="link-social-card" href="https:www.pinterest.com"
+                >@myaccount</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+
       <section id="CV">
         <h2>CV</h2>
         <p>
@@ -133,8 +161,8 @@
     </main>
     <footer>
       <p>&#169; Anna Rolfes</p>
-      <a href="#">Impressum</a>
-      <a href="#">Datenschutz</a>
+      <a href="#Contact">Contact</a>
+      <a href="#CV">CV</a>
     </footer>
   </body>
 </html>

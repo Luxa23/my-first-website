@@ -1,0 +1,8 @@
+.blockquote {
+  background: #def;
+  font-family: inherit;
+}
+
+.blockquote--fancy {
+  color: rebeccapurple;
+}

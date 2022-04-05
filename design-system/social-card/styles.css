@@ -1,0 +1,38 @@
+.social-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+}
+
+.single-social-card {
+  display: flex;
+  gap: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px;
+}
+.social-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: inherit;
+  box-sizing: border-box;
+}
+
+.content-single-social-card {
+  padding: 5px;
+  width: 100%;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-social-card {
+  text-decoration: none;
+  color: #7a7a7a;
+}
