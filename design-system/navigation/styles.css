@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  padding: 10px;
+  gap: 15px;
+}
+.main-navigation {
+  text-decoration: none;
+  color: #4e434d;
+  padding: 5px;
+}

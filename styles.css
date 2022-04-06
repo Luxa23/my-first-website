@@ -1,10 +1,8 @@
 @import url("/base.css");
+@import url("/design-system/navigation/styles.css");
+@import url("/design-system/headlines/styles.css");
 @import url("/design-system/blockquote/styles.css");
 @import url("/design-system/social-card/styles.css");
-
-/* .main-title {
-  font-family: "Rubik Moonrocks";
-} */
 
 .main-header {
   display: flex;
@@ -13,22 +11,6 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-}
-
-h1 {
-  font-family: "Rubik Moonrocks";
-  font-size: 45px;
-}
-
-nav {
-  display: flex;
-  padding: 10px;
-  gap: 15px;
-}
-.main-navigation {
-  text-decoration: none;
-  color: #4e434d;
-  padding: 5px;
 }
 
 .about-myself {
